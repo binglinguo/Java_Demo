@@ -1,0 +1,7 @@
+create table txt(
+    val int,
+    root varchar(50),
+    left varchar(30),
+    right varchar(30),
+    dir datetime
+);

@@ -1,0 +1,24 @@
+package Sort;
+
+public class ChoiceSort implements Sort{
+    /**
+     * 选择排序
+     * 时间复杂度O(N^2)
+     * 稳定性：不稳定
+     * @param array
+     */
+    @Override
+    public void sort (int[] array) {
+        for (int i = 0 ; i < array.length - 1 ; i++) {
+            int min=i;
+            for (int j = i + 1 ; j < array.length ; j++) {
+                if(array[j]<array[min]){
+                    min=j;
+                }
+            }
+            if(min!=i){
+                swap(array,i,min);
+            }
+        }
+    }
+}

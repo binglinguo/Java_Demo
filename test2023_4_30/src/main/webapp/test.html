@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <input type="text" id="userId">
+        <input type="text" id="classId">
+        <input type="button" value="提交" id="submit">
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script>
+            let userIdInput = document.querySelector('#userId');
+            let classIdInput = document.querySelector('#classId');
+            let button = document.querySelector('#submit');
+            button.onclick = function(){
+                $.ajax({
+                    type:'post',
+                    url:'postJson',
+                    contentType:'application/json',
+                    data:JSON.stringify({
+                        userId:userIdInput.value,
+                        classId:classIdInput.value
+                    }),
+                    success:function(body){
+                        console.log(body);
+                    }
+                });
+            }
+        
+        </script>
+
+    <!-- <form action="postGetParameter" method="post">
+        <input type="text" name="userId">
+        <input type="text" name="classId">
+        <input type="submit" value="提交">
+    </form> -->
+
+</body>
+</html>

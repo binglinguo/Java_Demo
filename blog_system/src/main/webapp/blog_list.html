@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客系统</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_list.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="image/headpack.png" alt="">
+        <span class="title">我的博客系统</span>
+
+        <div class="spacer"></div>
+
+        <a href="blog_list.html">主页</a> 
+        <a href="blog_edit.html">写博客</a>
+        <a href="blog_login.html">注销</a>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="card">
+                <img src="image/head.png" alt="">
+                <h3></h3>
+                <a href="#">GitHub 地址</a>
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <!-- 每一个博客就对应一个blog -->
+            <!-- <div class="blog">
+                <div class="title"> -->
+                    <!-- 我的第一篇博客 -->
+                <!-- </div> -->
+                 <!-- 博客发布的时间 -->
+                <!-- <div class="date">
+                    2022-04-28 18:45:00
+                </div> -->
+                <!-- 博客的摘要 -->
+                <!-- <div class="desc">
+                    从今天起，我要好好学习，好好敲代码 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quod qui saepe voluptas dolorum laboriosam quasi error cumque eaque. Modi iste voluptas reiciendis sint ea quia magnam inventore a consequuntur.
+                </div>
+                <a href="blog_derauk.html">查看全文 &gt;&gt;</a>
+            </div> -->
+            <!-- 每一个博客就对应一个blog -->
+           <div>正在努力加载中……………</div>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+        function getBlogList(){
+            $.ajax({
+                type:'get',
+                url:'blog',
+                success : function(body){
+                    let rightDiv = document.querySelector('.right');
+                    rightDiv.innerHTML = '';
+                    for(let blog of body){
+                        let blogDiv = document.createElement('div');
+                        blogDiv.className ="blog";
+                        // //构造标题
+                        let titleDiv = document.createElement('div');
+                        titleDiv.className = "title";
+                        titleDiv.innerHTML = blog.title;
+                        blogDiv.appendChild(titleDiv);
+                        //构造发布时间
+                        let dateDiv = document.createElement('div');
+                        dateDiv.className = 'date';
+                        dateDiv.innerHTML = blog.postTime;
+                        blogDiv.appendChild(dateDiv);
+                        //构造博客的摘要
+                        let descDiv = document.createElement('div');
+                        descDiv.className = 'desc';
+                        descDiv.innerHTML = blog.content;
+                        blogDiv.appendChild(descDiv);
+                        //构造查看全文
+                        let a = document.createElement('a');
+                        a.innerHTML = '查看全文 &gt&gt';
+                        a.href = 'blog_derauk.html?blogId=' + blog.blogId;
+                        blogDiv.appendChild(a);
+
+                        rightDiv.appendChild(blogDiv);
+                        
+                    }
+                },
+                error : function(){
+                alert("获取博客失败 error！");
+            }
+            });
+        }
+        getBlogList();
+
+        // function getUserInfo(){
+        //     $.ajax({
+        //         type:'get',
+        //         url:'login',
+        //         success:function(body){
+        //             if(body.userId && body.userId > 0){
+        //                 //有效的登录状态
+        //                 console.log("登录成功 用户名为：" + body.username);
+        //             }else {
+        //                 //如果未登录弹窗告诉未登录要进行登录
+        //                 alert("您当前未登录 请登录后再试");
+        //                 location.assign('blog_login.html');
+        //             }
+        //         },
+        //         error:function(){
+        //             alert("您当前未登录 请登录后再试");
+        //             location.assign('blog_login.html');
+        //         }
+        //     });
+        // }
+
+        // getUserInfo();
+    </script>
+    </script>
+    <!-- 在这里引入上述的 js 文件, 就可以执行到里面的代码, 也就进行了登录状态的监测了 -->
+    <script src="js/common.js"></script>
+    <script>
+        // 针对博客列表页, 调用的时候传入参数
+        getUserInfo('blog_list.html');
+    </script>
+</body>
+</html>

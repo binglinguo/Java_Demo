@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffdc77c7-9347-40af-a165-0d45c1c3d990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/bobblesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/choicesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/heapsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/hillsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/insertsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/mergersort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test2022_12_17/out/production/test2022_12_17/Sort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test2022_12_17/out/production/test2022_12_17/Sort/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test2022_12_17/src/Sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test2022_12_17/src/Sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test2022_12_20/src/Sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test2022_12_20/src/Sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test2022_12_20/src/Sort/heapsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test2022_12_20/src/Sort/heapsort.java" afterDir="false" />
-    </list>
+    <list default="true" id="ffdc77c7-9347-40af-a165-0d45c1c3d990" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

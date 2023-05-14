@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情页面</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_derail.css">
+
+    <!-- 引入 editor.md 的依赖 -->
+    <link rel="stylesheet" href="editor.md/css/editormd.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="editor.md/lib/marked.min.js"></script>
+    <script src="editor.md/lib/prettify.min.js"></script>
+    <script src="editor.md/editormd.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="image/headpack.png" alt="">
+        <span class="title">我的博客系统</span>
+
+        <div class="spacer"></div>
+
+        <a href="blog_list.html">主页</a> 
+        <a href="blog_edit.html">写博客</a>
+        <a href="logout">注销</a>
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="card">
+                <div id="n">当前作者：</div>
+                <img src="image/head.png" alt="">
+                <h3>Java冰激凌</h3>
+                <a href="#">GitHub 地址</a>
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="blog-content">
+                <h3></h3>
+                <div class="date"></div>
+                <div id="content" style="opacity:70%"></div>
+            </div>
+        </div>
+    <script src="js/common.js"></script>
+
+    <script>
+        function getBlogDetail(){
+            $.ajax({
+                type:'get',
+                url:'blog' + location.search,
+                success:function(body){
+                    let h3 = document.querySelector(".blog-content>h3");
+                    h3.innerHTML = body.title;
+
+                    let dateDiv = document.querySelector(".date");
+                    dateDiv.innerHTML = body.postTime;
+
+                    // editormd.markdownToHTML('content',{
+                    //     markdown: body.content
+                    // });
+                    editormd.markdownToHTML('content', {
+                        markdown: body.content
+                    });
+                    // let contentDiv = document.querySelector(".content");
+                    // contentDiv.innerHTML = body.content;
+                }
+            });
+        }
+        getBlogDetail();
+
+        function getAuthorInfo(user){
+            $.ajax({
+                type:'get',
+                url:'authorInfo' + location.search,
+                success:function(body){
+                    if(body.userName){
+                        changeUserName(body.userName);
+
+                        if(body.userName == user.userName){
+                            let navDiv = document.querySelector('.nav');
+                            let a = document.createElement('a');
+                            a.innerHTML = '删除';
+                            a.href = 'blogDelete' + location.search;
+                            navDiv.appendChild(a);
+                        }
+                    }else {
+                        console.log("获取作者信息失败！" + body.reason);
+                    }
+                }
+            });
+        }
+       
+        getUserInfo('blog_derauk.html');
+
+    function getUserInfo(pageName){
+        $.ajax({
+            type:'get',
+            url:'login',
+            success:function(body){
+                if(body.userId && body.userId > 0){
+                    //有效的登录状态
+                    console.log("登录成功 用户名为：" + body.userName);
+
+                    // if (pageName == 'blog_list.html') {
+                    //     changeUserName(body.userName);
+                    // }
+                    getAuthorInfo(body);
+                }else {
+                    //如果未登录弹窗告诉未登录要进行登录
+                    alert("您当前未登录 请登录后再试");
+                    location.assign('blog_login.html');
+                }
+            },
+            error:function(){
+                alert("您当前未登录 请登录后再试");
+                location.assign('blog_login.html');
+            }
+        });
+    }   
+
+
+function changeUserName(username) {
+    let h3 = document.querySelector('.card>h3');
+    h3.innerHTML = username;
+}
+    </script>
+</body>
+</html>  

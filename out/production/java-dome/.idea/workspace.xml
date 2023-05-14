@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0348a807-caa7-4c7b-9018-ab8ceba29b72" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-dome.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20222" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022_9-29.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dome1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dome2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dome3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/Dog1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/DoubleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/DoubleLinkedList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/FiveStarFlag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/ListNode1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/po/PreakPo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/Claeass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/Dome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/MyJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/MyarrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/Preak1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/SeqList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/dome1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/dome2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/dome3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/dome4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/dome5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/myAles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test2022_7_27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test2022_8_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test2022_9_10$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test2022_9_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test_8_18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test_8_22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test_8_24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test_8_28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/com/gbl/dome/test/test_8_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_10_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_8_29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test2022_9_30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/testDome/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/testDome/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/testDome/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/testDome/test2022_10_11s.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test_10_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test_2022_10_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test_2022_10_14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2022_9-29/test_2022_8_30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_Dome2/META-INF/java_Dome2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/Dome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/MyarrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/SeqList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/dome1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/dome2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/dome3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/dome4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/dome5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test2022_7_27.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test2022_8_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test2022_9_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test_8_18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test_8_22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test_8_24.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test_8_28.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test/test_8_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gbl/dome/test2022_9_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gbl/dome/test2022_9_29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_10_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_10_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test2022_9_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2022_9_30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_2022_10_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_2022_10_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_2022_8_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_2022_8_30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2GACzmOqYlzMOZFI2MZQgdZburc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="应用程序.test_2022_10_14">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="java-dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2022_10_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2022_10_10" />
+      <module name="java-dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2022_10_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2022_10_8" />
+      <module name="java-dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_2022_10_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_2022_10_14" />
+      <module name="java-dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.test_2022_10_14" />
+        <item itemvalue="应用程序.test2022_10_8" />
+        <item itemvalue="应用程序.HelloWorld" />
+        <item itemvalue="应用程序.test2022_10_10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0348a807-caa7-4c7b-9018-ab8ceba29b72" name="默认变更列表" comment="" />
+      <created>1665822265733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665822265733</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
